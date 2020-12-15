@@ -125,5 +125,5 @@
       AssetId: "Craftsman_Roof_02_-_Corner_In_End_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

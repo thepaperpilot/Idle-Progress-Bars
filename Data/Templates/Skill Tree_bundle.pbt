@@ -40,5 +40,5 @@
     Version: "1.1.0"
     Description: "Create a skill tree from a JSON-formatted data file. Handles purchasing, requirement checking, and giving rewards for each node."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

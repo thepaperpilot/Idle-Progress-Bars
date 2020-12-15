@@ -104,6 +104,6 @@
   Marketplace {
     Description: "Automatically kill players if they fall below a certain Z coordinate.\r\n\r\nDoes not require accurate placement in the map. Simply drag the template in, and set the Z coordinate on the parent."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

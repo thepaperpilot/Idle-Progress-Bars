@@ -415,6 +415,10 @@ Objects {
           Value: "mc:ecorehorizontalalign:center"
         }
       }
+      PhysicsSettings {
+        MinContactOffset: 2
+        MaxContactOffset: 8
+      }
     }
   }
 }

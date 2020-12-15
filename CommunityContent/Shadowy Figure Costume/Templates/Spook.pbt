@@ -4048,7 +4048,7 @@
     }
     Assets {
       Id: 5489775416547967874
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4108,6 +4108,6 @@
   Marketplace {
     Description: "A spooky costume. Features a modified costume script that allows you to hide the player and enable the flying mode. It comes with a VFX and a sound effect attached to the root socket. It may appear a little buggy in some lighting conditions as it uses the fancy cloud material."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

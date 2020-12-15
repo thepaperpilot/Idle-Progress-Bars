@@ -49,6 +49,6 @@
   Marketplace {
     Description: "This script allows you to simply drag and drop the item you want to respawn in the game world and set the time to wait after picking it up before it respawns."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

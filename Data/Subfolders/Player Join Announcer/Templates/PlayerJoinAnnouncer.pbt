@@ -195,6 +195,6 @@
   Marketplace {
     Description: "Announces when a player joins the game!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

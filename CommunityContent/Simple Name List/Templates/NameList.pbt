@@ -236,6 +236,6 @@
   Marketplace {
     Description: "Hold Tab to view all of the players currently in the instance. Very handy if you don\'t need a fancy scoreboard!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

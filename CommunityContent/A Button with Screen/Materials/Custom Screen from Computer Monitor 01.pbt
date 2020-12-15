@@ -2,7 +2,7 @@
   Id: 12927630136848985474
   Name: "Custom Screen from Computer Monitor 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 5077292889349246840
     ParameterOverrides {

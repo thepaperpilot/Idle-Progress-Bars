@@ -40,5 +40,5 @@
     Version: "1.0.0"
     Description: "A button that clicks. You can use the world text to whatever you like!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

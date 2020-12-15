@@ -18,7 +18,7 @@ Assets {
 }
 Assets {
   Id: 17804872816677549927
-  Name: "Floor 01 4m x 4m Mainstreet"
+  Name: "Main Street Floor 01 - 4m x 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -36,7 +36,7 @@ Assets {
 }
 Assets {
   Id: 16931630116077975102
-  Name: "Pillar 01 Mainstreet"
+  Name: "Main Street Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

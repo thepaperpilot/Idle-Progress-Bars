@@ -48,5 +48,5 @@
     Version: "1.2.0"
     Description: "This is a model only! \r\n\r\nThis is mainly for use in the Advanced Scripting in CORE tutorial, but feel free to use this however you like.\r\n\r\n...A manticoin for becoming manti-rich.\r\n\r\nUpdate: assigning asset type."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

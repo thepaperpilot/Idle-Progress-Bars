@@ -263,7 +263,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "multiplier for each unique"
+    Text: "production multiplier for each"
     Color {
       R: 1
       G: 1
@@ -306,7 +306,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "Gain an additive 5% production"
+    Text: "Gain a multiplicative 5%"
     Color {
       R: 1
       G: 1

@@ -27,7 +27,7 @@ Assets {
 }
 Assets {
   Id: 6000681835192046231
-  Name: "Pipe (thick)"
+  Name: "Pipe - Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

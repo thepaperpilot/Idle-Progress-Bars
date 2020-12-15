@@ -46,5 +46,5 @@
     Version: "1.1.0"
     Description: "It\'s a floor cushion that you can sit on. Interact again or jump to stand up.  \r\n\r\nv1.01: Fixes bug where player gets stuck in seated position.  "
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

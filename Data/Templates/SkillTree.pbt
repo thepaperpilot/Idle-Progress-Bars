@@ -2917,7 +2917,7 @@
     }
     Assets {
       Id: 5196377603841433560
-      Name: "Background Flat 020"
+      Name: "BG Gradient 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -2986,6 +2986,6 @@
   Marketplace {
     Description: "Create a skill tree from a JSON-formatted data file. Handles purchasing, requirement checking, and giving rewards for each node."
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }
