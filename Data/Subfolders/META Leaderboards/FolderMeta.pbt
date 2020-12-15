@@ -1,0 +1,59 @@
+﻿MetaVersion: 1
+MarketplaceDetails {
+  Id: "65d008198a8443f2acab93970ce3bc28"
+  OwnerAccountId: "ef18f7661bf14d0eae60d7f31ea769af"
+  OwnerName: "TeamMETA"
+  Version: "1.2.0"
+}
+AssetIdsOriginalToNew {
+  key: 1953446882420386915
+  value: 17667533157428332548
+}
+AssetIdsOriginalToNew {
+  key: 2507260266898572647
+  value: 8997389785433572520
+}
+AssetIdsOriginalToNew {
+  key: 3657546010506603859
+  value: 11879912522788967857
+}
+AssetIdsOriginalToNew {
+  key: 5499770928996553524
+  value: 2936635583291784458
+}
+AssetIdsOriginalToNew {
+  key: 7484234804678032917
+  value: 11889998875163046470
+}
+AssetIdsOriginalToNew {
+  key: 8488630851904811583
+  value: 2784166736926800263
+}
+AssetIdsOriginalToNew {
+  key: 10403232210986071245
+  value: 11061074949079276418
+}
+AssetIdsOriginalToNew {
+  key: 12399168888161726801
+  value: 4689912012911228944
+}
+AssetIdsOriginalToNew {
+  key: 13521330696646451223
+  value: 8926259076919629902
+}
+AssetIdsOriginalToNew {
+  key: 14389505786912195291
+  value: 3054194659550335819
+}
+AssetIdsOriginalToNew {
+  key: 15199603765363105523
+  value: 17316794801105407122
+}
+AssetIdsOriginalToNew {
+  key: 17666231141514106385
+  value: 16250706916025059543
+}
+AssetIdsOriginalToNew {
+  key: 17721587157230567686
+  value: 17085762290247650745
+}
