@@ -37,7 +37,8 @@ function Sync(player)
 	local LibDeflate = require("B86573DF30C02AB1:LibDeflate")
 	messenger:SetNetworkedCustomProperty("Data", data)
 	Events.BroadcastToPlayer(player, "Sync")
-	Leaderboards.SubmitPlayerScore(LEADERBOARD, player, math.log(playerData[player.id].total, 10))
+	playerData[player.id].best = math.max(playerData[player.id].best, playerData[player.id].total)
+	Leaderboards.SubmitPlayerScore(LEADERBOARD, player, math.log(playerData[player.id].best, 10))
 end
 
 function GetTimeMultiplier(player)
@@ -92,6 +93,7 @@ local function OnPlayerJoined(player)
 	local data = UTILS.decrypt(Storage.GetPlayerData(player).data or {})
 	data.points = data.points or 0
 	data.total = data.total or 0
+	data.best = data.best or data.total
 	data.prestigeMult = data.prestigeMult or 1
 	data.prestigePoints = data.prestigePoints or 0
 	data.freePrestigePoints = data.freePrestigePoints or 0
