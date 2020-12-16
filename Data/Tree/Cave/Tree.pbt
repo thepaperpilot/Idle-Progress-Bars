@@ -1,6 +1,93 @@
 ﻿Name: "Cave"
 RootId: 11422218178810576527
 Objects {
+  Id: 6118504029120976315
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -798.189453
+      Y: 639.493164
+      Z: -163.85907
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11422218178810576527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 19.6592693
+    Color {
+      R: 1
+      G: 0.62
+      B: 0.959734857
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 4232735526601289163
+  Name: "Sci-fi Magic Crystal Aura Loop 01 SFX"
+  Transform {
+    Location {
+      X: -8888.61328
+      Y: -4026.71094
+      Z: 721.997498
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11422218178810576527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 1351630963648491059
+    }
+    AutoPlay: true
+    Repeat: true
+    Volume: 1
+    Falloff: 300
+    Radius: 600
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
   Id: 9042260869064076700
   Name: "\"Serene Fantasy Dream\" Music Construction Kit (Sections) 01"
   Transform {
@@ -50,9 +137,9 @@ Objects {
       Z: 1430.92188
     }
     Rotation {
-      Pitch: -5.55322361
-      Yaw: -89.1832199
-      Roll: -8.76777
+      Pitch: -5.55322266
+      Yaw: -89.1832275
+      Roll: -8.76776123
     }
     Scale {
       X: 36.4107
@@ -282,7 +369,7 @@ Objects {
       Z: 121.830566
     }
     Rotation {
-      Pitch: -66.4035797
+      Pitch: -66.4035645
       Yaw: 180
       Roll: 123.92263
     }
@@ -664,8 +751,8 @@ Objects {
       Z: 153.220398
     }
     Rotation {
-      Yaw: -15.9471006
-      Roll: -4.82486248
+      Yaw: -15.947113
+      Roll: -4.82485962
     }
     Scale {
       X: 0.655545533
@@ -713,9 +800,9 @@ Objects {
       Z: -98.854126
     }
     Rotation {
-      Pitch: -23.4545345
+      Pitch: -23.4545288
       Yaw: -171.382584
-      Roll: -13.814229
+      Roll: -13.8142395
     }
     Scale {
       X: 0.424702168
@@ -763,9 +850,9 @@ Objects {
       Z: -66.8304443
     }
     Rotation {
-      Pitch: -35.9448738
+      Pitch: -35.9448853
       Yaw: -168.410568
-      Roll: -5.96197796
+      Roll: -5.9619751
     }
     Scale {
       X: 0.424709022
@@ -813,8 +900,8 @@ Objects {
       Z: -29.2615967
     }
     Rotation {
-      Pitch: -5.7243948
-      Yaw: -14.7887793
+      Pitch: -5.72439575
+      Yaw: -14.7887878
       Roll: 1.26393878
     }
     Scale {
@@ -864,8 +951,8 @@ Objects {
     }
     Rotation {
       Pitch: 6.97554874
-      Yaw: -15.9470959
-      Roll: -8.08433
+      Yaw: -15.9470825
+      Roll: -8.08432
     }
     Scale {
       X: 0.424702168
@@ -913,7 +1000,7 @@ Objects {
       Z: 1494.69922
     }
     Rotation {
-      Pitch: -1.8765192
+      Pitch: -1.87652588
       Yaw: 133.364197
       Roll: -174.197525
     }
@@ -964,7 +1051,7 @@ Objects {
     }
     Rotation {
       Pitch: 5.14708662
-      Yaw: -50.1101189
+      Yaw: -50.1101074
       Roll: 20.1292839
     }
     Scale {
@@ -1014,7 +1101,7 @@ Objects {
     }
     Rotation {
       Pitch: 13.9170017
-      Yaw: -56.2695122
+      Yaw: -56.2695
       Roll: 14.9587641
     }
     Scale {
@@ -1064,7 +1151,7 @@ Objects {
     }
     Rotation {
       Pitch: 2.21735239
-      Yaw: -56.696022
+      Yaw: -56.6960144
       Roll: 16.1619434
     }
     Scale {
@@ -1215,7 +1302,7 @@ Objects {
       Z: 106.338928
     }
     Rotation {
-      Yaw: -0.0498351939
+      Yaw: -0.0498352051
     }
     Scale {
       X: 1.00001657
@@ -1569,7 +1656,7 @@ Objects {
       Z: -188.657959
     }
     Rotation {
-      Yaw: -31.1489124
+      Yaw: -31.1489258
     }
     Scale {
       X: 10
@@ -1617,9 +1704,9 @@ Objects {
       Z: -195.484131
     }
     Rotation {
-      Pitch: -17.0930462
-      Yaw: -8.2818079
-      Roll: -32.555687
+      Pitch: -17.0930481
+      Yaw: -8.28179932
+      Roll: -32.5556946
     }
     Scale {
       X: 5
@@ -1667,7 +1754,7 @@ Objects {
       Z: -149.740784
     }
     Rotation {
-      Yaw: -31.1488819
+      Yaw: -31.1488953
     }
     Scale {
       X: 25
@@ -1870,8 +1957,8 @@ Objects {
       Yaw: -151.325714
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 0.999990344
+      Y: 2.74286819
       Z: 1
     }
   }
@@ -1883,7 +1970,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50
+    Intensity: 65.7495346
     Color {
       R: 1
       G: 0.49

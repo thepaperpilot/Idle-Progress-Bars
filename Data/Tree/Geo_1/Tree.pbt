@@ -1,13 +1,10 @@
 ﻿Name: "Geo_1"
 RootId: 7899743462274103139
 Objects {
-  Id: 4232735526601289163
-  Name: "Sci-fi Magic Crystal Aura Loop 01 SFX"
+  Id: 10900026669710798163
+  Name: "Misc"
   Transform {
     Location {
-      X: 10.4390869
-      Y: 5985.56836
-      Z: 1591.82874
     }
     Rotation {
     }
@@ -24,16 +21,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  AudioInstance {
-    AudioAsset {
-      Id: 1351630963648491059
-    }
-    AutoPlay: true
-    Repeat: true
-    Volume: 1
-    Falloff: 300
-    Radius: 600
-    IsAttenuationEnabled: true
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Misc"
   }
 }
 Objects {
@@ -232,6 +222,11 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -300,78 +295,29 @@ Objects {
   }
 }
 Objects {
-  Id: 13120666015386399223
-  Name: "Spawn Platform"
+  Id: 9226814868317198839
+  Name: "Spawn"
   Transform {
     Location {
-      Z: 2050
+      X: -200.000015
     }
     Rotation {
     }
     Scale {
-      X: 25.0000057
-      Y: 25
-      Z: 0.5
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 7899743462274103139
-  ChildIds: 16813558807825262224
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7625382804772008570
-      }
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 6000681835192046231
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -39.9999924
-      Z: 340
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.0399999917
-      Y: 0.04
-      Z: 2
-    }
-  }
-  ParentId: 13120666015386399223
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Spawn"
   }
 }

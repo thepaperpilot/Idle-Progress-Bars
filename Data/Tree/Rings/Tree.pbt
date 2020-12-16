@@ -979,6 +979,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
     TemplateAsset {

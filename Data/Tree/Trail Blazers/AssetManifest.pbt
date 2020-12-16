@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17986147208910835706
+  Name: "Stone Block Small Broken"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_broken_02"
+  }
+}
+Assets {
   Id: 17804872816677549927
   Name: "Main Street Floor 01 - 4m x 4m"
   PlatformAssetType: 1
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_complex_tech_panel_002_uv"
+  }
+}
+Assets {
+  Id: 15784793582931827041
+  Name: "Rock Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
@@ -152,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10835155324150586940
+  Name: "Rock Pile 001"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_001"
+  }
+}
+Assets {
   Id: 10417200363882713138
   Name: "Metal Corrugated 03"
   PlatformAssetType: 2
@@ -185,6 +212,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_003"
+  }
+}
+Assets {
+  Id: 8959814840259675017
+  Name: "Branches Cluster Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_big_001"
+  }
+}
+Assets {
+  Id: 8843262080717471926
+  Name: "Stone Block Big Broken"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_broken_04"
   }
 }
 Assets {
@@ -224,12 +269,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6682348010668848920
+  Name: "Rock Hexagonal"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_008"
+  }
+}
+Assets {
   Id: 5888440846581604035
   Name: "Metal Greebles 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_greebles_002_uv_ref"
+  }
+}
+Assets {
+  Id: 5261686842547157816
+  Name: "Branches Cluster Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_small_001"
   }
 }
 Assets {
@@ -260,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3377721323622766709
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
   Id: 2275260513309488867
   Name: "Sphere"
   PlatformAssetType: 1
@@ -275,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
+  Id: 1428628640585580184
+  Name: "Branches Cluster Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_medium_001"
   }
 }
 Assets {

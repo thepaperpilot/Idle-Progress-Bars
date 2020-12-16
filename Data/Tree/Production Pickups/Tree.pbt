@@ -1,13 +1,13 @@
 ﻿Name: "Production Pickups"
 RootId: 7762349506401195708
 Objects {
-  Id: 12283839501212388894
+  Id: 7769954136489436051
   Name: "Spawner"
   Transform {
     Location {
-      X: -6359.5459
-      Y: 399.186279
-      Z: 0.111694336
+      X: -7482.3916
+      Y: -7942.01074
+      Z: 3161.16699
     }
     Rotation {
     }
@@ -30,14 +30,84 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 8961.55762
-            Y: 9969.39258
-            Z: 3855.62964
+            X: -9251.19434
+            Y: -5304.56055
+            Z: 3103.57568
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Pitch: 7.52593899
+            Yaw: 0.558838546
+            Roll: 4.25903559
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17459513961550922889
+      value {
+        Overrides {
+          Name: "cs:id"
+          String: "shopMountain"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9771499260080236314
+    }
+  }
+}
+Objects {
+  Id: 9596872728803298564
+  Name: "Spawner"
+  Transform {
+    Location {
+      X: 9421.22559
+      Y: 10631.6533
+      Z: 943.821533
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7762349506401195708
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2458557126520437836
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9023.84277
+            Y: 10002.3633
+            Z: 3853.41284
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -1.72390747
+            Yaw: 0.0279359389
+            Roll: 0.520118356
           }
         }
         Overrides {
@@ -696,6 +766,14 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }

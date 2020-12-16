@@ -1,28 +1,19 @@
 ﻿Assets {
-  Id: 18200200076012147990
-  Name: "Fantasy Castle Pillar 02 - Top"
+  Id: 18302154991031027573
+  Name: "Rock 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_pillar_002_top"
+    AssetId: "sm_rock_generic_001"
   }
 }
 Assets {
-  Id: 16502473530932815479
-  Name: "Bone Human Ribcage Half"
+  Id: 15784793582931827041
+  Name: "Rock Flat 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_ribhalf_01_ref"
-  }
-}
-Assets {
-  Id: 15743947153286308557
-  Name: "\"Serene Fantasy Dream\" Music Construction Kit (Sections) 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_SereneFantasyKit_ref"
+    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
@@ -62,21 +53,21 @@ Assets {
   }
 }
 Assets {
-  Id: 8485402463291709248
-  Name: "Craftsman Wall Interior 02 Corner"
+  Id: 9771497324652568649
+  Name: "Rock Block 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_int_002_corner"
+    AssetId: "sm_rock_generic_007"
   }
 }
 Assets {
-  Id: 7822473577673662489
-  Name: "Fantasy Castle Pillar 01 Mid"
+  Id: 8959814840259675017
+  Name: "Branches Cluster Big"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_pillar_001_mid"
+    AssetId: "sm_gen_branches_big_001"
   }
 }
 Assets {
@@ -89,21 +80,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3597564178429038724
-  Name: "Fantasy Castle Wall 02 - Curved"
+  Id: 5261686842547157816
+  Name: "Branches Cluster Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_wall_curve_002"
-  }
-}
-Assets {
-  Id: 3555947595915281161
-  Name: "Urban Brick Debris 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urban_destruction_debris_brick_01_ref"
+    AssetId: "sm_gen_branches_small_001"
   }
 }
 Assets {
@@ -116,21 +98,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1534567357036061385
-  Name: "Curb 2m"
+  Id: 1428628640585580184
+  Name: "Branches Cluster Medium"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_2m_001"
-  }
-}
-Assets {
-  Id: 1351630963648491059
-  Name: "Sci-fi Magic Crystal Aura Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_magic_crystal_aura_loop_01_Cue_ref"
+    AssetId: "sm_gen_branches_medium_001"
   }
 }
 Assets {
@@ -140,14 +113,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
-  }
-}
-Assets {
-  Id: 927289395128576362
-  Name: "Urban Brick Debris 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urban_destruction_debris_brick_05_ref"
   }
 }
