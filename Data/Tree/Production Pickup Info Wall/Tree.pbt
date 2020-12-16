@@ -220,7 +220,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "coin you collect!"
+    Text: "unique coin you collect!"
     Color {
       R: 1
       G: 1

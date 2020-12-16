@@ -106,7 +106,7 @@ Events.Connect("Sync", function()
 	pickup = data.pickup -- NOTE: This is the prestige skill tree node
 	yoga = data.yoga
 	pickups = data.pickups
-	PICKUPS_COUNT_DISPLAY.text = "Found "..UTILS.format(#pickups, 0).."/11" -- TODO don't hardcode 11
+	PICKUPS_COUNT_DISPLAY.text = "Found "..UTILS.format(#pickups, 0).."/12" -- TODO don't hardcode
 	PICKUPS_MULTIPLIER_DISPLAY.text = "x"..UTILS.format(1.05 ^ #pickups)
 	for id,ring in pairs(rings) do
 		ring.context.Sync(data[id])
