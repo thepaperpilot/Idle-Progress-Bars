@@ -25,7 +25,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "Join the community at https://discord.gg/WzejVAx"
+    Text: "Join the community at discord.gg/WzejVAx"
     Color {
       R: 1
       G: 1
@@ -48,7 +48,7 @@ Objects {
   Transform {
     Location {
       X: -5.1
-      Z: 2170
+      Z: 2230
     }
     Rotation {
       Yaw: 179.999939
@@ -67,7 +67,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "Game is still in active development. Enjoy! -thepaperpilot"
+    Text: "building. Start by leveling up the red bar!"
     Color {
       R: 1
       G: 1
@@ -109,7 +109,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Text {
-    Text: "quickly it fills up, and can be leveled up inside"
+    Text: "quickly it fills up, and can be leveled up inside that bar\'s"
     Color {
       R: 1
       G: 1
