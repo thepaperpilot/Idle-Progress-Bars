@@ -256,5 +256,5 @@
       AssetId: "Sign_-_Right_Turn_02"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

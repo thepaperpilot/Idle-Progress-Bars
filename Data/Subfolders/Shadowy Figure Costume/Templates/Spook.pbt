@@ -4108,6 +4108,6 @@
   Marketplace {
     Description: "A spooky costume. Features a modified costume script that allows you to hide the player and enable the flying mode. It comes with a VFX and a sound effect attached to the root socket. It may appear a little buggy in some lighting conditions as it uses the fancy cloud material."
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

@@ -1089,6 +1089,12 @@ Objects {
         SelfId: 1306846271467162368
       }
     }
+    Overrides {
+      Name: "cs:FFMultiplierDisplay"
+      ObjectReference {
+        SelfId: 11227004798736407730
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

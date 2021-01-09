@@ -1,6 +1,36 @@
 ﻿Name: "Misc"
 RootId: 10900026669710798163
 Objects {
+  Id: 8712870670504281688
+  Name: "Production Pickup Info Wall"
+  Transform {
+    Location {
+      X: 1839.12915
+      Y: -6923.24805
+      Z: 452.048096
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10900026669710798163
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Production Pickup Info Wall"
+  }
+}
+Objects {
   Id: 960107585820501319
   Name: "Rock 02"
   Transform {

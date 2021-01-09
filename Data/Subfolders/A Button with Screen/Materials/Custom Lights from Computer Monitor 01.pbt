@@ -2,7 +2,7 @@
   Id: 8405988179665451427
   Name: "Custom Lights from Computer Monitor 01"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 16359802019418995566
     ParameterOverrides {

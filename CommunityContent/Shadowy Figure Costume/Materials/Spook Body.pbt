@@ -2,7 +2,7 @@
   Id: 6418890413723237513
   Name: "Spook Body"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 12110438037480132390
     ParameterOverrides {

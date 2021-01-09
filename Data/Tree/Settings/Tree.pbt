@@ -335,6 +335,7 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       IsMountEnabled: true
+      MaxHitpoints: 100
     }
   }
 }

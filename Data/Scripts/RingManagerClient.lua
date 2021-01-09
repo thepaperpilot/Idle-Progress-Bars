@@ -5,6 +5,7 @@ local FILLS_PER_SECOND_DISPLAY = script:GetCustomProperty("FillsPerSecondDisplay
 local MEDITATION_DISPLAY = script:GetCustomProperty("MeditationDisplay"):WaitForObject()
 local PICKUPS_COUNT_DISPLAY = script:GetCustomProperty("PickupsCountDisplay"):WaitForObject()
 local PICKUPS_MULTIPLIER_DISPLAY = script:GetCustomProperty("PickupsMultiplierDisplay"):WaitForObject()
+local FF_MULTIPLIER_DISPLAY = script:GetCustomProperty("FFMultiplierDisplay"):WaitForObject()
 local PRESTIGE_WALL_CONTROLLER = script:GetCustomProperty("PrestigeWallController"):WaitForObject()
 local PRESTIGE_TREE_CONTROLLER = script:GetCustomProperty("PrestigeTreeController"):WaitForObject()
 local UTILS = require("8ED737AC5DEC0144:Utils")
@@ -25,9 +26,10 @@ pickup = 0
 yoga = 0
 meditating = false
 meditationStart = os.time()
+ffMulti = 1
 
 function Fill(multiplier)
-	local amount = prestigeMult * (1.05 ^ #pickups)
+	local amount = prestigeMult * (1.05 ^ #pickups) * ffMulti
 	for id,ring in pairs(rings) do
 		amount = amount * ring.context.mult
 	end
@@ -106,8 +108,10 @@ Events.Connect("Sync", function()
 	pickup = data.pickup -- NOTE: This is the prestige skill tree node
 	yoga = data.yoga
 	pickups = data.pickups
+	ffMulti = data.ffMulti
 	PICKUPS_COUNT_DISPLAY.text = "Found "..UTILS.format(#pickups, 0).."/12" -- TODO don't hardcode
 	PICKUPS_MULTIPLIER_DISPLAY.text = "x"..UTILS.format(1.05 ^ #pickups)
+	FF_MULTIPLIER_DISPLAY.text = "x"..UTILS.format(ffMulti)
 	for id,ring in pairs(rings) do
 		ring.context.Sync(data[id])
 	end

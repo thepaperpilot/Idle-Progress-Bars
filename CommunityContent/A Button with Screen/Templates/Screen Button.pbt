@@ -799,6 +799,6 @@
   Marketplace {
     Description: "A button that clicks. You can use the world text to whatever you like!"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

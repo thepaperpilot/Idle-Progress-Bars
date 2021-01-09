@@ -36,7 +36,25 @@
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:FairweatherFaireSharedKey"
+        NetReference {
+          Key: "71bba618f9fe488197f6fc44057aa8f8"
+          Type {
+            Value: "mc:enetreferencetype:sharedpersistence"
+          }
+        }
+      }
+      Overrides {
+        Name: "cs:IdleProgressBarsSharedKey"
+        NetReference {
+          Key: "327337fb867f47979f62f033a1bd7556"
+          Type {
+            Value: "mc:enetreferencetype:sharedpersistence"
+          }
+        }
+      }
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

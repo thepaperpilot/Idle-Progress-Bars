@@ -1,8 +1,11 @@
-﻿local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local DATA_MESSENGER_TEMPLATE = script:GetCustomProperty("DataMessengerTemplate")
 local LEADERBOARD = script:GetCustomProperty("Leaderboard")
 local PRESTIGE_LEADERBOARD = script:GetCustomProperty("PrestigeLeaderboard")
 local SKILL_TREE_MANAGER = script:GetCustomProperty("SkillTreeManager"):WaitForObject()
+local FAIRWEATHER_FAIRE_SHARED_KEY = script:GetCustomProperty("FairweatherFaireSharedKey")
+local IDLE_PROGRESS_BARS_SHARED_KEY = script:GetCustomProperty("IdleProgressBarsSharedKey")
+local LibDeflate = require("B86573DF30C02AB1:LibDeflate")
 local UTILS = require("8ED737AC5DEC0144:Utils")
 
 local rings = {}
@@ -16,7 +19,7 @@ end
 
 function Fill(player, multiplier)
 	local data = playerData[player.id]
-	local amount = data.prestigeMult * (1.05 ^ #playerData[player.id].pickups)
+	local amount = data.prestigeMult * (1.05 ^ #data.pickups) * data.ffMulti
 	for id,ring in pairs(rings) do
 		amount = amount * data[id].mult
 	end
@@ -34,11 +37,14 @@ function Sync(player)
 	end
 	local messenger = World.SpawnAsset(DATA_MESSENGER_TEMPLATE)
 	messenger.name = "DataMessenger-"..player.id
-	local LibDeflate = require("B86573DF30C02AB1:LibDeflate")
 	messenger:SetNetworkedCustomProperty("Data", data)
 	Events.BroadcastToPlayer(player, "Sync")
 	playerData[player.id].best = math.max(playerData[player.id].best, playerData[player.id].total)
 	Leaderboards.SubmitPlayerScore(LEADERBOARD, player, math.log(playerData[player.id].best, 10))
+	local ipbData = Storage.GetSharedPlayerData(IDLE_PROGRESS_BARS_SHARED_KEY, player)
+	ipbData.maxPoints = playerData[player.id].total
+	ipbData.prestiged = playerData[player.id].prestigeMult > 1
+	Storage.SetSharedPlayerData(IDLE_PROGRESS_BARS_SHARED_KEY, player, ipbData)
 end
 
 function GetTimeMultiplier(player)
@@ -103,6 +109,7 @@ local function OnPlayerJoined(player)
 	data.pickup = data.pickup or 0 -- NOTE: This is the prestige skill tree node
 	data.yoga = data.yoga or 0
 	data.pickups = data.pickups or {}
+	data.ffMulti = 1 + math.log((Storage.GetSharedPlayerData(FAIRWEATHER_FAIRE_SHARED_KEY, player).totalCoins or 0) + 1, 10) / 10
 	for id,ring in pairs(rings) do
 		ring.context.Init(data)
 	end
@@ -136,6 +143,10 @@ local function OnPlayerLeft(player)
 	playerData[player.id].lastSync = os.time()
 	local data = UTILS.encrypt(playerData[player.id])
 	Storage.SetPlayerData(player, { data = data })
+	local ipbData = Storage.GetSharedPlayerData(IDLE_PROGRESS_BARS_SHARED_KEY, player)
+	ipbData.maxPoints = playerData[player.id].total
+	ipbData.prestiged = playerData[player.id].prestigeMult > 1
+	Storage.SetSharedPlayerData(IDLE_PROGRESS_BARS_SHARED_KEY, player, ipbData)
 	playerData[player.id] = nil
 end
 

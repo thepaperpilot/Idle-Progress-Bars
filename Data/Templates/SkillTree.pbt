@@ -2986,6 +2986,6 @@
   Marketplace {
     Description: "Create a skill tree from a JSON-formatted data file. Handles purchasing, requirement checking, and giving rewards for each node."
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

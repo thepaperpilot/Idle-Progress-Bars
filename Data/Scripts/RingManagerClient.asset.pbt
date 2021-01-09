@@ -40,6 +40,11 @@
         }
       }
       Overrides {
+        Name: "cs:FFMultiplierDisplay"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:PrestigeWallController"
         ObjectReference {
         }
@@ -51,5 +56,5 @@
       }
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

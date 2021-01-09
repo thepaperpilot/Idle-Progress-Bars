@@ -106,7 +106,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Production Pickup Info Wall"
+    FilePartitionName: "Production Pickup Info Wall_1"
   }
 }
 Objects {

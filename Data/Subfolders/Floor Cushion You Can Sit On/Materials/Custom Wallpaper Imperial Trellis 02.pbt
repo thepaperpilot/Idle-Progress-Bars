@@ -2,7 +2,7 @@
   Id: 13380204481749848499
   Name: "Custom Wallpaper Imperial Trellis 02"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 7770780448859128482
     ParameterOverrides {

@@ -21,8 +21,8 @@ function Update(delta, player)
 		if fills > 0 then
 			data[ID].delta = data[ID].delta - fills / lapsPerSec
 			data[ID].mult = data[ID].mult + fills * GetMultPerFill(player, data)
+			RING_MANAGER.context.Fill(player, fills)
 		end
-		RING_MANAGER.context.Fill(player, fills)
 	end
 end
 
