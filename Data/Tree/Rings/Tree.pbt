@@ -151,9 +151,9 @@ Objects {
         Overrides {
           Name: "cs:BarColor"
           Color {
-            R: 0.982250571
-            G: 0.0497065671
-            B: 0.679542482
+            R: 1
+            G: 0.470000029
+            B: 0.912251592
             A: 1
           }
         }
