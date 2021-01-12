@@ -539,10 +539,10 @@
 			}
 		},
 		{
-			"file": "Data/Scripts/RingControllerClient.lua",
+			"file": "Data/Subfolders/META Leaderboards/Scripts/Leaderboard_World.lua",
 			"settings":
 			{
-				"buffer_size": 6605,
+				"buffer_size": 7734,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -755,7 +755,9 @@
 	[
 		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data",
 		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data/Scripts",
-		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data/Tree"
+		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data/Subfolders",
+		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data/Subfolders/META Leaderboards",
+		"/C/Users/thepa/Documents/My Games/CORE/Saved/Maps/Core Dimensions/Data/Subfolders/META Leaderboards/Scripts"
 	],
 	"file_history":
 	[
@@ -970,8 +972,8 @@
 						"selection":
 						[
 							[
-								4730,
-								4836
+								222,
+								162
 							]
 						],
 						"settings":
@@ -981,7 +983,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1953.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -989,19 +991,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "Data/Scripts/RingControllerClient.lua",
+					"file": "Data/Subfolders/META Leaderboards/Scripts/Leaderboard_World.lua",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6605,
+						"buffer_size": 7734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6529,
-								6458
+								2679,
+								2679
 							]
 						],
 						"settings":
@@ -1011,7 +1013,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3024.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

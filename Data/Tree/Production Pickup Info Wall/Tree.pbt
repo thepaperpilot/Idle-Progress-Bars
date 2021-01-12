@@ -23,7 +23,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DestinationGame"
-      String: "b983bc/core-plaza"
+      String: "aa8ab7/fairweather-faire"
     }
     Overrides {
       Name: "cs:DestinationGame:tooltip"

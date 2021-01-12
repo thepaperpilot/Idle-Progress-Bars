@@ -13,5 +13,7 @@ ScreenshotPaths: "D:\\ownCloud\\Pictures\\IPB Screenshots\\Center.PNG"
 ScreenshotPaths: "D:\\ownCloud\\Pictures\\IPB Screenshots\\store.PNG"
 ScreenshotPaths: "D:\\ownCloud\\Pictures\\IPB Screenshots\\topofsign.png"
 ScreenshotPaths: "D:\\ownCloud\\Pictures\\IPB Screenshots\\cave.PNG"
-ReleaseNotes: "Updated screenshots"
+ReleaseNotes: "Added cross-promotional portal with Fairweather Faire"
 OwnerId: "f5806f4aa39f4b35ba154b79bc7e7b63"
+SerializationVersion: 1
+PublishedState: Public
